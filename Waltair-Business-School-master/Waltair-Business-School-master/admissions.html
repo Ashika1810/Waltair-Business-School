@@ -1,0 +1,144 @@
+<!-- This page will porvide the students with information about the procedure to apply for our courses and what are the basic requirements as well as the best practices to follow to avoid discomfort on either side-->
+<DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Admissions-WBS</title> <!-- Title that will be displayed in the title bar of the webpage -->
+        <link rel="stylesheet" href="./CSS/style.css"><!-- Link to CSS Stylesheet -->
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Headland+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <marquee  behavior="scroll" direction="left" scrollamount="4"
+                     onmouseover="this.setAttribute('scrollamount',0,0);this.stop();"
+                     onmouseout="this.setAttribute('scrollamount',4,0);this.start();"
+                     class="moving-body">
+                <script>// Javascript code to display information as a scrolling entity
+                    for(var i=0; i<=10; i++)
+                        {
+                            document.write('Contact Us at 999999999 and e-mail us at wbs@gmail.edu. For further contact details look at the Contact Us Page.||| ');
+                        }
+                </script>
+    </marquee>
+    <div class = "inavigation">
+        <div class = "title">
+            <div class = "logo">
+                <img src="Images/res.jpg">
+            </div>
+            <div class = "clgname">
+                <h1>Waltair Business School</h1>
+                <h4>"Come with passion, leave with career"</h4>
+            </div>
+        </div>
+        <div class = "modules">
+            <div class = "menu" style="font-size:24px;cursor:pointer" onclick="openNav()">&#9776; Menu</div>
+           <ul class="nav-links">
+                <li><a href="index.html">Home</a></li><!-- Contents of Navigation Bar that will be displayed in a horizontal line -->
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li class="current"><a href="admissions.html">Admissions</a></li>
+                <li><a href="faqs.html">FAQS</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a class="current" href="admissions.html">Admissions</a>
+                <a href="faqs.html">FAQS</a>
+                <a href="careers.html">careers</a>
+                <a href="contact.html">Contact Us</a>
+        </div>
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                // document.getElementById("inavigation,inbody,footer,marquee").style.marginLeft = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                // document.getElementById("inavigation,inbody,footer,marquee").style.marginLeft= "0";
+            }
+        </script>
+        </div>
+    </div>
+        <!-- main body of the admissions -->
+         <section id="showcase">
+            <div class="container3">
+                <div class="admi">
+            <h1>ADMISSIONS</h1>
+            <div class = "faq1">
+                <div class="qu">
+                    <h4 id="f1">Affiliation :</h4> 
+                </div>
+                <div class="ans">
+                    <p class="la">Our BBA program is affiliated to Andhra University, Visakhapatnam </p> 
+
+                </div>
+            </div>
+            <div class = "faq2">
+                <div class="qu">
+                    <h5 id="f1">Academic Calendar (2020-2021)</h5> 
+                </div>
+                <div class="ans">
+                 <table class="">
+        <tr>
+            <th>Admissions Open from</th>
+            <TH>01-08-2020 </TH>
+        </tr>
+        <tr>
+            <th>Last Date of Admission</th>
+            <TH>01-09-2020</TH>
+        </tr>
+        <tr>
+            <th>Re-Opening Day</th>
+            <TH>01-10-2020</TH>
+        </tr>
+        <tr>
+            <th>Commencement of Classwork</th>
+            <TH>01-10-2020
+            </TH>
+        </tr>
+    </table>
+                </div>
+            </div>
+             <div class = "faq3">
+                <div class="qu">
+                    <h4 id="f1">Tuition Fees (2020-2021)</h4> 
+                </div>
+                <div class="ans">
+                    <table>
+        <tr>
+            <th>First Year</th>
+            <TH>1,25,000 INR </TH>
+        </tr>
+        <tr>
+            <th>Second Year</th>
+            <TH>1,25,000 INR</TH>
+        </tr>
+        <tr>
+            <th>Third Year</th>
+            <TH>1,25,000 INR</TH>
+        </tr>
+        <tr>
+            <th>Total</th>
+            <TH>3,75,000 INR
+            </TH>
+        </tr>
+    </table>
+                </div>
+            </div>
+            <h3 id="cnt" >Note: Prior Information will be given for fee structure change</h3>
+            <h3 id="cnt">Class Strength:   60 Students only.</h3>
+        </div>
+        <hr>
+        <footer>
+            <p style = "color:#e8491d;font-size: 20px">Waltair Business School, Copyright &copy; 2020</p>
+        </footer>
+					
+
+    </body>
+</html>    
